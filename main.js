@@ -45,7 +45,7 @@ console.log('Valor inválido')
 else{
     console.log(false)
 }*/
-let movimentosXadrez = 'PeAo'
+/*let movimentosXadrez = 'PeAo'
 
 switch (movimentosXadrez.toLowerCase()) {
     case 'peao':
@@ -68,4 +68,15 @@ switch (movimentosXadrez.toLowerCase()) {
       break;
     default:
         console.log('opção inválida')
+  }*/
+  /*let num1 = 1
+  let num2 = 5
+  let num3 = 3
+  
+  if(num1 %2 == 0 || num2 %2 == 0 || num3 %2 == 0){
+    console.log('true')
   }
+  else{
+    console.log('false')
+  }*/
+
