@@ -79,4 +79,39 @@ switch (movimentosXadrez.toLowerCase()) {
   else{
     console.log('false')
   }*/
+  
+/*function numeroPrimo(num) {
+  for(let i= 2; i<num; i+=1){
+    if(num % i === 0){
+    return false
+    }
+  }
+  return true
+  }
+console.log(numeroPrimo(5))*/
+/*let salarioBruto = 10000.00
+let salarioLiquido
+if (salarioBruto<=1556.94) {
+  salarioLiquido =  salarioBruto - 0.08 * salarioBruto
+} else if (salarioBruto >=1556.95 && salarioBruto <=2594.92){
+  salarioLiquido =  salarioBruto - 0.09 * salarioBruto
+} else if (salarioBruto >=2594.93 && salarioBruto <=5189.82){
+  salarioLiquido =  salarioBruto - 0.11 * salarioBruto
+}  else {
+  salarioLiquido =  salarioBruto - 570.88
+}
+if(salarioLiquido<=1903.98){
+
+} else if(salarioLiquido>=1903.99 && salarioLiquido<=2826.65){
+  salarioLiquido = salarioLiquido - (0.075 * salarioLiquido - 142.80)
+} else if(salarioLiquido>=2826.66 && salarioLiquido<=3751.05){
+  salarioLiquido = salarioLiquido - (0.15 * salarioLiquido - 354.80)
+} else if(salarioLiquido>=3751.06 && salarioLiquido<=4664.68){
+  salarioLiquido = salarioLiquido - (0.225 * salarioLiquido - 636.13)
+} else{
+  salarioLiquido = salarioLiquido - (0.275 * salarioLiquido - 869.36)
+}
+
+console.log(salarioLiquido);*/
+
 
