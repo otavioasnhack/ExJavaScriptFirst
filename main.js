@@ -1,117 +1,104 @@
-/*
-const num1 = 15
-const num2 = 8
+// const frutas = ['banana','pera','uva','goiaba']
+// console.log(frutas[3])
+// for (let index = 0; index < frutas.length; index++) {
+//   const element = frutas[index];
+// console.log(element)  
+// }
 
-console.log(num1 + num2)
-console.log(num1 - num2)
-console.log(num1 * num2)
-console.log(num1 / num2)
-console.log(num1 % num2)
-*/
-/*
-let num1 = 15
-let num2 = 80
-if(num1 > num2){
-    console.log(num1)
-}
-else {
-    console.log(num2)
-}
-*/
-/*let num1 = 1500
-let num2 = 80
-let num3 = 420
-if(num1 > num2 && num1 > num3){
-    console.log(num1)
-}
-else if(num2 > num1 && num2 > num3){
-    console.log(num2)
-}
-else{
-    console.log(num3)
-}*/
+// for (const fruta of frutas) {
+//   console.log(fruta)
 
-/*const anguloint1 = 60
-const anguloint2 = 60
-const anguloint3 = 60
-const soma = anguloint1 + anguloint2 + anguloint3
-
-if(soma == 180){
-    console.log(true)
-}
-else if(soma <=0 || soma >=360){
-console.log('Valor inválido')
-}
-else{
-    console.log(false)
-}*/
-/*let movimentosXadrez = 'PeAo'
-
-switch (movimentosXadrez.toLowerCase()) {
-    case 'peao':
-      console.log('Uma casa para frente')
-      break;
-    case 'rei':
-        console.log('Uma casa em qualquer direção')
-    break;
-      case 'bispo':
-        console.log('Todas as casas em diagonais que estiverem diponíveis')      
-        break;
-      case 'torre':
-      console.log('Todas as casas em verticais e horizontais que estiverem diponíveis')
-      break;
-      case 'dama':
-      console.log('Todas as casas em verticais, horizontais e diagonais que estiverem diponíveis')
-      break;
-      case 'cavalo':
-      console.log('Duas casas em uma direção e uma casa em outra direção')
-      break;
-    default:
-        console.log('opção inválida')
-  }*/
-  /*let num1 = 1
-  let num2 = 5
-  let num3 = 3
+// }
+// for (const key in frutas) {
+//   console.log(key)
+// }
+// const computador = {
+//   memoriaRam : '16GB',
+//   processador : 'i9 13th',
+//   placaMae: 'ASRock H310CM',
+//   placaDeVideo: 'MSI RADEON RX 580 ARMOR 8G',
+// }
+// for (const peca of Object.values(computador)) {
+//   console.log(Object.values(computador))
+// }
+// computador.fonte = '750w'
+// computador['monitor'] = 'LG 39\''
+// let key = 'teclado'
+// console.log(computador[key])
+// frutas.push('maracuja')
+// frutas.unshift('tomate')
+// console.log(frutas)
+// const saladaFrutas = [...frutas]
+// saladaFrutas.push('leite condensado')
+// frutas.pop()
+// // console.log(frutas)
+// for (let index = 0; index < 10; index++) {
+//   console.log(index)
   
-  if(num1 %2 == 0 || num2 %2 == 0 || num3 %2 == 0){
-    console.log('true')
-  }
-  else{
-    console.log('false')
-  }*/
+// // }
+// const numbers = [5, 9, 3, 19, 70, 8, 100, 35, 2 , 27]
+// let sum = 0
+// let maiorNumero = numbers[0]
+// let numerosImpares = 0
+// for (let index = 0; index < numbers.length; index++) {
+  // sum+=numbers[index]
+// if (maiorNumero<numbers[index]) {
+//   maiorNumero = numbers[index]
+// else {
+//   console.log('Nenhum valor ímpar encontrado')
+// }
+// if (numbers[index] % 2 !== 0 ) {
+  // numerosImpares +=1
+// }
+// }
+// console.log(numerosImpares)
+
+
+// }
+// console.log(maiorNumero);
+// const mediaAritmetica = sum / numbers.length
+// if (mediaAritmetica>20) {
+//   console.log('O valor da média aritmética é maior que 20')
+// }
+// else{
+//   console.log('O valor da média aritmética é menor ou igual a 20')
+// }
+
+// const fatorial = 5
+// let resultado = 1
+// for (let index = fatorial; index > 1; index=index-1) {
+//   resultado *= index
+// }
+// console.log(resultado)
+// let word = 'otavio nepomuceno'
+// let invertida = word.split("").reverse().join('')
+// console.log(invertida)
+// const n = 5
+// let asteriscos = ''
+// for (let linha = 1; linha <= n; linha+=1) {
+//   let distancia = ''
+//   for (let espacos = linha; espacos <= n; espacos+=1) {
+//     distancia += ' '
+//   }
+//   asteriscos += '*'
+//   console.log(distancia + asteriscos)
+// // }
+//  function reverte(contrario) {
   
-/*function numeroPrimo(num) {
-  for(let i= 2; i<num; i+=1){
-    if(num % i === 0){
-    return false
+//  }
+// .split('').reverse().join('')
+function inverterSemMetodos(palavra) {
+  if (palavra.length > 1) {
+    let letras = ''
+    // for (let index = palavra.length - 1; index >= 0; index-=1) {
+    //   letras+=palavra[index]
+    // }
+    for (let index = 0; index < palavra.length; index+=1) {
+      letras = palavra[index] + letras
     }
-  }
-  return true
-  }
-console.log(numeroPrimo(5))*/
-/*let salarioBruto = 10000.00
-let salarioLiquido
-if (salarioBruto<=1556.94) {
-  salarioLiquido =  salarioBruto - 0.08 * salarioBruto
-} else if (salarioBruto >=1556.95 && salarioBruto <=2594.92){
-  salarioLiquido =  salarioBruto - 0.09 * salarioBruto
-} else if (salarioBruto >=2594.93 && salarioBruto <=5189.82){
-  salarioLiquido =  salarioBruto - 0.11 * salarioBruto
-}  else {
-  salarioLiquido =  salarioBruto - 570.88
+    return letras
+  } 
+  return 'O número de caracteres não satisfaz a condição'
 }
-if(salarioLiquido<=1903.98){
-
-} else if(salarioLiquido>=1903.99 && salarioLiquido<=2826.65){
-  salarioLiquido = salarioLiquido - (0.075 * salarioLiquido - 142.80)
-} else if(salarioLiquido>=2826.66 && salarioLiquido<=3751.05){
-  salarioLiquido = salarioLiquido - (0.15 * salarioLiquido - 354.80)
-} else if(salarioLiquido>=3751.06 && salarioLiquido<=4664.68){
-  salarioLiquido = salarioLiquido - (0.225 * salarioLiquido - 636.13)
-} else{
-  salarioLiquido = salarioLiquido - (0.275 * salarioLiquido - 869.36)
-}
-
-console.log(salarioLiquido);*/
-
-
+console.log(inverterSemMetodos('paralelepipedo'))
+// console.log(inverterSemMetodos(''))
